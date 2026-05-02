@@ -14,5 +14,10 @@ flask с postgreSQL + redis, развернытуе через докер
 
 
 ```bash
+git clone https://github.com/ilyapmml/docker_compose_postgresql.git
+cd docker_compose_postgresql
+
 cp .env.example .env
-docker compose up -d
+
+docker compose ps
+
