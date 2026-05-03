@@ -20,3 +20,4 @@ cd docker_compose_postgresql
 cp .env.example .env
 
 docker compose ps
+
